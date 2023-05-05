@@ -17,12 +17,14 @@
       href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link href="output.css" rel="stylesheet" />
+<!--    <link href="output.css" rel="stylesheet" />-->
+    <link href="build.css" rel="stylesheet" />
     <title>Frontend Mentor | Single Price Grid Component</title>
   </head>
-  <body class="flex min-h-screen flex-col items-center justify-center bg-light-gray py-8">
-    <main class="grid mobile:w-[335px]">
-      <div class="flex flex-col gap-y-3 bg-white px-5 py-5 shadow-xl mobile:rounded-t-lg">
+  <body class="flex min-h-screen flex-col items-center justify-center py-8 bg-light-gray">
+    <main class="grid laptop:grid-cols-2 mobile:w-[335px] laptop:w-[700px]">
+      
+      <div class="laptop:col-span-2 laptop:col-start-1 flex flex-col gap-y-3 laptop:gap-y-5 mobile:rounded-t-lg bg-white px-5 py-5 shadow-xl">
         <p class="text-xl font-bold text-cyan">Join our community</p>
 
         <p class="text-lg font-bold text-bright-yellow">30-day, hassle-free money back guarantee</p>
@@ -34,21 +36,21 @@
         </p>
       </div>
 
-      <div class="flex flex-col gap-y-3 px-5 py-5 shadow-xl bg-cyan">
-        <p class="text-light-gray text-xl font-bold">Monthly Subscription</p>
+      <div class="flex flex-col gap-y-3 laptop:gap-y-5 px-5 py-5 shadow-xl bg-cyan">
+        <p class="text-xl font-bold text-light-gray">Monthly Subscription</p>
 
         <div>
-          <span class="font-bold text-4xl text-white">&dollar;29</span>
+          <span class="text-4xl font-bold text-white">&dollar;29</span>
           <span class="text-light-gray">per month</span>
         </div>
 
         <p class="text-light-gray">Full access for less than &dollar;1 a day</p>
 
-        <button class="w-[90%] bg-bright-yellow h-[50px] self-center rounded-lg font-bold text-white">Sign Up</button>
+        <button class="self-center rounded-lg font-bold text-white w-[90%] bg-bright-yellow h-[50px]">Sign Up</button>
       </div>
 
-      <div class="px-5 py-5 shadow-xl bg-light-cyan flex flex-col gap-y-3 mobile:rounded-b-lg">
-        <p class="font-bold text-xl text-light-gray">Why Us</p>
+      <div class="flex flex-col gap-y-3 laptop:gap-y-5 mobile:rounded-b-lg laptop:rounded-bl-none px-5 py-5 shadow-xl bg-light-cyan">
+        <p class="text-xl font-bold text-light-gray">Why Us</p>
 
         <ul class="text-light-gray">
           <li>Tutorials by industry experts</li>
