@@ -663,6 +663,15 @@ body {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.hover\:bg-light-yellow:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(175 204 47 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 375px) {
   .mobile\:w-\[335px\] {
     width: 335px;

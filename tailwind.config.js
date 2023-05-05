@@ -6,6 +6,7 @@ module.exports = {
       cyan: "#2BB3B1",
       "light-cyan": "#4ABEBD",
       "bright-yellow": "#BFDE33",
+      "light-yellow": "#afcc2f",
       "light-gray": "#E6EFF6",
       "grayish-blue": "hsl(218, 22%, 67%)",
       white: "#fff",
