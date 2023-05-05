@@ -2,26 +2,27 @@
 module.exports = {
   content: ["./dist/**/*.{html,js}"],
   theme: {
-    colors:{
-      cyan: "hsl(179, 62%, 43%)",
-      "bright-yellow": "hsl(71, 73%, 54%)",
-      "light-gray": "hsl(204, 43%, 93%)",
-      "grayish-blue": "hsl(218, 22%, 67%)"
+    colors: {
+      cyan: "#2BB3B1",
+      "light-cyan": "#4ABEBD",
+      "bright-yellow": "#BFDE33",
+      "light-gray": "#E6EFF6",
+      "grayish-blue": "hsl(218, 22%, 67%)",
+      white: "#fff",
     },
-    screens:{
+    screens: {
       mobile: "375px",
-      laptop: "1440px"
+      laptop: "1440px",
     },
     extend: {
-      fontFamily:{
-        'karla': ['Karla', 'sans-serif']
+      fontFamily: {
+        karla: ["Karla", "sans-serif"],
       },
       fontWeight: {
         regular: 400,
-        bold: 700
-      }
+        bold: 700,
+      },
     },
   },
   plugins: [],
-}
-
+};

@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="output.css">
-  <title>Frontend Mentor | Single Price Grid Component</title>
+    <link
+      href="images/favicon-32x32.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="output.css" rel="stylesheet" />
+    <title>Frontend Mentor | Single Price Grid Component</title>
+  </head>
+  <body class="flex min-h-screen flex-col items-center justify-center bg-light-gray py-8">
+    <main class="grid mobile:w-[335px]">
+      <div class="flex flex-col gap-y-3 bg-white px-5 py-5 shadow-xl mobile:rounded-t-lg">
+        <p class="text-xl font-bold text-cyan">Join our community</p>
 
-</head>
-<body>
-<main>
-  <div>
-    Join our community
+        <p class="text-lg font-bold text-bright-yellow">30-day, hassle-free money back guarantee</p>
 
-    30-day, hassle-free money back guarantee
+        <p class="text-grayish-blue">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </div>
 
-    Gain access to our full library of tutorials along with expert code reviews.
-    Perfect for any developers who are serious about honing their skills.
-  </div>
-  <div>
-    Monthly Subscription
+      <div class="flex flex-col gap-y-3 px-5 py-5 shadow-xl bg-cyan">
+        <p class="text-light-gray text-xl font-bold">Monthly Subscription</p>
 
-    &dollar;29 per month
+        <div>
+          <span class="font-bold text-4xl text-white">&dollar;29</span>
+          <span class="text-light-gray">per month</span>
+        </div>
 
-    Full access for less than &dollar;1 a day
+        <p class="text-light-gray">Full access for less than &dollar;1 a day</p>
 
-    Sign Up
-  </div>
+        <button class="w-[90%] bg-bright-yellow h-[50px] self-center rounded-lg font-bold text-white">Sign Up</button>
+      </div>
 
-  <div>
-    Why Us
+      <div class="px-5 py-5 shadow-xl bg-light-cyan flex flex-col gap-y-3 mobile:rounded-b-lg">
+        <p class="font-bold text-xl text-light-gray">Why Us</p>
 
-    Tutorials by industry experts
-    Peer &amp; expert code review
-    Coding exercises
-    Access to our GitHub repos
-    Community forum
-    Flashcard decks
-    New videos every week
-  </div>
-
-</main>
-
-
-
-
-
-</body>
+        <ul class="text-light-gray">
+          <li>Tutorials by industry experts</li>
+          <li>Peer &amp; expert code review</li>
+          <li>Coding exercises</li>
+          <li>Access to our GitHub repos</li>
+          <li>Community forum</li>
+          <li>Flashcard decks</li>
+          <li>New videos every week</li>
+        </ul>
+      </div>
+    </main>
+  </body>
 </html>
